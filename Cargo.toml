@@ -1,0 +1,15 @@
+[package]
+name = "linguistic_supremation"
+version = "0.1.0"
+edition = "2021"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = { version = "1.0.75", features = ["backtrace"] }
+ollama-rs = "0.1.1"
+tokio = { version = "1.34.0", features = ["full"] }
+tts = "0.25.6"
+cocoa-foundation = "0.1"
+core-foundation = "0.9"
+libc = "0.2"
+objc = { version = "0.2", features = ["exception"] }
